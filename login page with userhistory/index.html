@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="out">
+        <div class="pop" id="pop"></div>
+        <form id="myform" method="post">
+            <input type="text" id="name" name="name" placeholder="Username" required>
+            <input type="text" id="mail" name="mail" placeholder="Email" required>
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <button id="clear-button" onclick="clearHistory()">Clear</button>
+
+    <script src="checker.js"></script>
+</body>
+</html>
