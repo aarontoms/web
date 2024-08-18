@@ -7,7 +7,7 @@ const session = require('express-session')
 const port = 3020
 
 app.use(session({
-    secret: 'your-secret-key',
+    secret: 'super secret',
     resave: false,
     saveUninitialized: true
 }))
