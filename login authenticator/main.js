@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const loginRouter = require('./login')
-const e = require('express')
 const session = require('express-session')
 
 const port = 3020
